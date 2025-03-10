@@ -2,4 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: x-large;
+    width: 100%;
+    padding: 2%;
+}
+.navBtn{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
 }

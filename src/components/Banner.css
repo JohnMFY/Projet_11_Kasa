@@ -1,0 +1,9 @@
+.banner{
+    max-width: 100%;    
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0%;
+}
+.bannerPicture{
+    max-width: 90%;
+}

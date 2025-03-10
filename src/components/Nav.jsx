@@ -7,7 +7,7 @@ export default function Nav() {
       <div className='logo'>
         <img src="src\assets\Logo.png" alt="Logo" />
       </div>
-      <div>
+      <div className='navBtn'>
         <div>Accueil</div>
         <div>À propos</div>
       </div>
