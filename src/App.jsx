@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
-import Banner from './components/Banner';
-import Section from './components/Section';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 import "./App.css";
 
@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <Nav/>
-      <Banner/>
-      <Section/>
+      <Main/>
+      <Footer/>
     </div>
   )
 }
