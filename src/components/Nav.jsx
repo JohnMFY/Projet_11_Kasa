@@ -1,7 +1,7 @@
-import React from 'react'
-import "./Nav.css"
+import React from 'react';
+import "./Nav.css";
 
-export default function Nav() {
+function Nav() {
   return (
     <nav className='nav'>
       <div className='logo'>
@@ -14,3 +14,5 @@ export default function Nav() {
     </nav>
   )
 }
+
+export default Nav

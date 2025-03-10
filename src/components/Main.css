@@ -1,9 +1,9 @@
-.banner{
+.main{
     max-width: 100%;    
     display: flex;
     justify-content: space-around;
-    padding: 5% 0%;
+    padding: 2% 0%;
 }
-.bannerPicture{
-    max-width: 90%;
+.banner{
+    max-width: 100%;
 }
