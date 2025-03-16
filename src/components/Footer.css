@@ -2,9 +2,15 @@
     width: 100%;
     margin: 0%;
     padding: 0%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 img{
-    width: 100%;
+    width: fit-content;
     margin: 0%;
     padding: 0%;
 }

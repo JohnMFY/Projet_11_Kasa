@@ -1,19 +1,13 @@
 import React from 'react';
 import "./Main.css";
-import "./card.jsx";
+import Banner from './Banner';
+import SectionLocations from './SectionLocations';
 
 function Main() {
   return (
     <div className='main'>
-        <img className='banner' src="src\assets\Banner.png" alt="Banner" />
-        <div className='section'>
-          <card/>
-          <card/>
-          <card/>
-          <card/>
-          <card/>
-          <card/>
-        </div>
+      <Banner/>
+      <SectionLocations/>
     </div>
   )
 }
