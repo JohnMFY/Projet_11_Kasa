@@ -11,5 +11,8 @@
     display: flex;
     justify-content:flex-end;
     flex-direction : column;
-    
+}
+.card a{
+    color: white;
+    text-decoration: none;
 }

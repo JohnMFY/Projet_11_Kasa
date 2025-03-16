@@ -12,10 +12,14 @@
     justify-content: space-around;
     flex-flow: row nowrap;
 }
-.acceuil{
-    text-decoration: underline;
-}
-a:active{
+.navBtn a{
     color: black;
     text-decoration: none;
+}
+.navBtn a{
+    color: black;
+    text-decoration: none;
+}
+.navBtn a.active{
+    text-decoration: underline;
 }
