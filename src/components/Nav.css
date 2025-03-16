@@ -15,3 +15,7 @@
 .acceuil{
     text-decoration: underline;
 }
+a:active{
+    color: black;
+    text-decoration: none;
+}

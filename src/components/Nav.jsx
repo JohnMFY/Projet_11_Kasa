@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Nav.css";
+import { NavLink } from "react-router";
+
 
 function Nav() {
   return (
@@ -8,8 +10,12 @@ function Nav() {
         <img src="src\assets\Logo.png" alt="Logo" />
       </div>
       <div className='navBtn'>
+        <NavLink to={"/"}>
         <div className='acceuil'>Accueil</div>
-        <div className='propos'>À propos</div>
+        </NavLink>
+        <NavLink to={"/about"}>
+          <div className='propos'>À propos</div>
+        </NavLink>    
       </div>
     </nav>
   )
