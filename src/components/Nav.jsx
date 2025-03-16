@@ -8,8 +8,8 @@ function Nav() {
         <img src="src\assets\Logo.png" alt="Logo" />
       </div>
       <div className='navBtn'>
-        <div>Accueil</div>
-        <div>À propos</div>
+        <div className='acceuil'>Accueil</div>
+        <div className='propos'>À propos</div>
       </div>
     </nav>
   )
