@@ -6,9 +6,7 @@ import appartementsData from "../data.json";
 
 function SectionLocations() {
   const appartements = appartementsData
-    appartements.map((appartement) =>
-    console.log(appartement)
-  );
+  
   return (
     <div className='sectionLocations'>
       {appartements.map((appartement)=>
@@ -16,6 +14,7 @@ function SectionLocations() {
           id=     {appartement.id}
           title=  {appartement.title}
           image=  {appartement.cover}
+          key=     {appartement.id}
         />
       )}
     </div>

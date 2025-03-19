@@ -7,7 +7,9 @@ function Nav() {
   return (
     <nav className='nav'>
       <div className='logo'>
-        <img src="src\assets\Logo.png" alt="Logo" />
+        <NavLink to={"/"}>  
+          <img src="src\assets\Logo.png" alt="Logo" />
+        </NavLink>
       </div>
       <div className='navBtn'>
         <NavLink to={"/"}>
