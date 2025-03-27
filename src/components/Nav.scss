@@ -5,17 +5,19 @@
     font-size: x-large;
     width: auto;
     padding: 2%;
-}
-.navBtn{
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row nowrap;
-    & a {
-        text-decoration: none;
-        color: black;
-        &.active{
-          text-decoration: underline;
+
+    .navBtn{
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        
+        & a {
+            text-decoration: none;
+            color: black;
+            &.active{
+            text-decoration: underline;
+            }
         }
-      }
+    }
 }
