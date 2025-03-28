@@ -1,5 +1,5 @@
 import React from 'react'
-import "./SectionLocations.css"
+import "./SectionLocations.scss"
 import Card from './card'
 import appartementsData from "../data.json";
 

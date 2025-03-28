@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 function Flat() {
   return (
-    <div>Flat</div>
+    <div>
+
+    </div>
   )
 }
 

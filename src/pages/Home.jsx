@@ -1,16 +1,12 @@
 import React from 'react';
-import Nav from '../components/Nav';
-import Main from '../components/Main';
-import Footer from '../components/Footer';
+import Flats from '../components/Flats';
 
 import "./Home.scss";
 
 function home() {
   return (
         <div>
-            <Nav/>
-            <Main/>
-            <Footer/>
+            <Flats/>
         </div>
     )
 }

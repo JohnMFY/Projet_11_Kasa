@@ -1,9 +1,9 @@
 import React from 'react';
-import "./Main.css";
+import "./Flats.scss";
 import Banner from './Banner';
 import SectionLocations from './SectionLocations';
 
-function Main() {
+function Flats() {
   return (
     <div className='main'>
       <Banner/>
@@ -12,4 +12,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Flats

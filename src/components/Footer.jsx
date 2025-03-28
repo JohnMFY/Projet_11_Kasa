@@ -1,10 +1,11 @@
 import React from 'react';
-import "./Footer.css";
+import "./Footer.scss";
 
 function Footer() {
   return (
     <div className='footer'>
-        <img src="src\assets\D_Footer.png" alt="Footer" />
+        <img src="src\assets\LogoFooter.svg" alt="logoFooter" />
+        <h3>©2025 Kasa. All rights reserved</h3>
     </div>
   )
 }
