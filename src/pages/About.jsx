@@ -1,11 +1,12 @@
 import React from 'react'
 import BannerAbout from '../components/BannerAbout'
+import DropdownAbout from '../components/DropdownAbout'
 
 function About() {
   return (
     <div>
         <BannerAbout/>
-        <h1>ABOUT</h1>
+        <DropdownAbout/>
     </div>
   )
 }
