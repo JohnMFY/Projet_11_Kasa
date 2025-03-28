@@ -19,7 +19,7 @@ const Layout = () => {
       <div>
           <Nav/>
           <main>
-              <Outlet /> {/* Le contenu spécifique à la route sera rendu ici */}
+              <Outlet />
           </main>
           <Footer/>
       </div>
