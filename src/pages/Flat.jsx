@@ -3,15 +3,13 @@ import FlatCarousel from '../components/FlatCarousel'
 import FlatInfos from '../components/FlatInfos'
 import FlatDropdown from '../components/FlatDropdown'
 import "./Flat.scss"
-import { useLocation } from 'react-router'
+import { useParams } from 'react-router'
 import appartementsData from "../data.json";
 
 
 function Flat() {
-  const location = useLocation()
-  let flatID = location.state.id
-  console.log(flatID)
-  let flatData = appartementsData.find((appartementsData) => appartementsData.id === flatID)
+  const {id} = useParams()
+  let flatData = appartementsData.find((appartementsData) => appartementsData.id === id)
   console.log(flatData.host.name)
   return (
     <div>

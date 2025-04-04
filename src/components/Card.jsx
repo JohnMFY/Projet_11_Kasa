@@ -5,7 +5,7 @@ import { NavLink } from "react-router";
 function Card(props) {
   return (
     <div className='card'>
-        <NavLink to={"/appartement"} state={{id : props.id}}>
+        <NavLink to={`/appartement/${props.id}`} >
         <img src={props.image} alt="" />
         <div className="appartementTitle">{props.title}</div>
         </NavLink>
