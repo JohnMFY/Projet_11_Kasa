@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route} from "react-router";
-import { Outlet } from 'react-router-dom';
 
 /** Layout components**/
-import Nav from './components/Nav.jsx';
-import Footer from './components/Footer';
+import Layout from "./layout/Layout.jsx";
 
 /** Pages **/
 import Home from "./pages/Home";
@@ -14,17 +12,6 @@ import Flat from "./Pages/Flat.jsx"
 import Error from "./Pages/Error.jsx"
 
 const root = document.getElementById("root");
-const Layout = () => {
-  return (
-      <div>
-          <Nav/>
-          <main>
-              <Outlet />
-          </main>
-          <Footer/>
-      </div>
-  );
-};
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
@@ -38,18 +25,3 @@ ReactDOM.createRoot(root).render(
     </Routes>
   </BrowserRouter>
 );
-
-/*
-const layout = () =>{
-  return(
-    <>
-      <Nav/>
-      <Outlet/>
-      <Footer/>
-    </>
-  )
-}
-
-
-</Route>  
-*/
