@@ -18,5 +18,11 @@
         font-size: larger;
         margin: 4%;
     }
-    
+    & a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+    }   
 }
