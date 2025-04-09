@@ -10,19 +10,21 @@ import appartementsData from "../data.json";
 function Flat() {
   const {id} = useParams()
   let flatData = appartementsData.find((appartementsData) => appartementsData.id === id)
-  console.log(flatData.host.name)
   return (
     <div>
-      <FlatCarousel/>
+      <FlatCarousel
+      pictures = {flatData.pictures}
+      />
       <FlatInfos
         title = {flatData.title}
         location = {flatData.location}
         tags = {flatData.tags}
         hostName ={flatData.host.name}
         hostPicture ={flatData.host.picture}
-
       />
-      <FlatDropdown/>
+      <FlatDropdown
+      
+      />
     </div>
   )
 }

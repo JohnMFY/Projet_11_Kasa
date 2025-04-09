@@ -15,7 +15,11 @@ function FlatInfos(props) {
             <img src={props.hostPicture} alt="profil picture" />
             </div>
             <div>
-                <img src="src\assets\star.svg" className='star' alt="star" /> 
+              <i className="fa-solid fa-star star"></i>
+              <i className="fa-solid fa-star star"></i>
+              <i className="fa-solid fa-star star"></i>
+              <i className="fa-solid fa-star star"></i>
+              <i className="fa-solid fa-star"></i> 
             </div>
         </div>
     </div>
