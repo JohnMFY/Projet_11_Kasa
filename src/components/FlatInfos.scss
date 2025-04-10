@@ -1,6 +1,62 @@
-.fa-star{
-    color: #E3E3E3
-}
-.star{
-    color: #FF6060
+.flatInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 2% 0% 2%;
+    .flatDivLeft{
+        display: flex;
+        flex-direction: column;
+        .flatTitle{
+            color: #FF6060;
+            font-size: 64px;
+            font-weight: 400;
+            margin: 0%;
+        }
+        .flatLocation{
+            font-size: larger;
+        }
+        .tagsDiv{
+            display: flex;
+            flex-direction: row;
+            .flatTag{
+                background-color: #FF6060;
+                border-radius: 13px;
+                width: fit-content; 
+                padding: 0.5% 1.5% 0.5% 1.5%; 
+                margin: 1% 2% 4% 0%;
+                color: white;
+                font-weight: 400;  
+            }
+        }
+    }
+    .flatDivRight{
+        .hostDiv{ 
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .hostName{
+                color: #FF6060;
+                margin-right: 4%;
+                text-align: end;
+                font-size:larger;
+                max-width: 40%;
+            }
+           & img{
+                border-radius: 50%;
+                max-width: 40%;
+            }
+        }
+        .stars{
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            .fa-star{
+                color: #E3E3E3;
+                margin: 1%;
+            }
+            .star{
+                color: #FF6060
+            }
+        }
+    }
 }
