@@ -1,7 +1,7 @@
 import React from 'react'
 import FlatCarousel from '../components/FlatCarousel'
 import FlatInfos from '../components/FlatInfos'
-import FlatDropdown from '../components/FlatDropdown'
+import FlatDropdowns from '../components/FlatDropdowns'
 import "./Flat.scss"
 import { useParams } from 'react-router'
 import appartementsData from "../data.json";
@@ -23,7 +23,7 @@ function Flat() {
         hostPicture ={flatData.host.picture}
         rating = {flatData.rating}
       />
-      <FlatDropdown
+      <FlatDropdowns
       equipments=  {flatData.equipments}
       description=  {flatData.description}
       />
