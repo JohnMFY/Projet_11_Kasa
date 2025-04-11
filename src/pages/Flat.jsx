@@ -21,9 +21,11 @@ function Flat() {
         tags = {flatData.tags}
         hostName ={flatData.host.name}
         hostPicture ={flatData.host.picture}
+        rating = {flatData.rating}
       />
       <FlatDropdown
-      
+      equipments=  {flatData.equipments}
+      description=  {flatData.description}
       />
     </div>
   )

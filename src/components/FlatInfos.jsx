@@ -3,7 +3,6 @@ import "./FlatInfos.scss"
 
 function FlatInfos(props) {
   const tags = props.tags;
-  console.log(tags)
   return (
     <div className='flatInfo'>
         <div className='flatDivLeft'>
@@ -20,11 +19,9 @@ function FlatInfos(props) {
                 <img src={props.hostPicture} alt="profil picture" />
               </div>
               <div className='stars'>
-                <i className="fa-solid fa-star fa-xl star"></i>
-                <i className="fa-solid fa-star fa-xl star"></i>
-                <i className="fa-solid fa-star fa-xl star"></i>
-                <i className="fa-solid fa-star fa-xl star"></i>
-                <i className="fa-solid fa-star fa-xl"></i>
+                {[1,2,3,4,5].map((index)=>(
+                  <i className={ props.rating >= index ? "fa-solid fa-star fa-xl star": "fa-solid fa-star fa-xl" }></i>
+                ))}
               </div>
             </div>
         </div>

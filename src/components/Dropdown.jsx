@@ -10,7 +10,7 @@ function Dropdown(props) {
     <div className='dropdown'>
             <div className='dropdownTitle'>
                 <h3>{props.title}</h3>
-                <img src="src\assets\chevron-up-solid.svg" alt="dropdown" className={`chevron ${isContentVisible ? "rotate" : ""}`} onClick={visible}/>
+                <i className={`fa-solid fa-chevron-up fa-2x ${isContentVisible ? "rotate" : ""}`} onClick={visible}></i>
             </div>
             { isContentVisible &&<p>{props.description}</p>}
     </div>

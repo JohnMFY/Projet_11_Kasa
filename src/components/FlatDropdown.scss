@@ -1,0 +1,32 @@
+.rotate{
+    rotate: 180deg;
+}
+.flatDropdowns{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 6%;
+    .flatDropdownTitle{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 100%;
+        background-color: #FF6060;
+        border-radius: 10px;
+        padding: 0%1%;
+    }
+    .flatDropdownContent{
+        background-color: #F6F6F673;
+            margin-top: 0%;
+            padding: 1%;
+            border-radius: 0px 0px 10px 10px ;
+    }
+    .flatDescription{
+        width: 40%;
+    }
+    .flatEquipements{
+        width: 40%;
+    }
+}
