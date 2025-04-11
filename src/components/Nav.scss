@@ -5,13 +5,14 @@
     font-size: x-large;
     width: auto;
     padding: 2%;
-
+    .logo{
+        padding-left: 3%;
+    }
     .navBtn{
         width: 25%;
         display: flex;
         justify-content: space-around;
-        flex-flow: row nowrap;
-        
+        flex-flow: row nowrap;        
         & a {
             text-decoration: none;
             color: black;

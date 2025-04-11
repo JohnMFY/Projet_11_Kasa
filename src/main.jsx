@@ -7,9 +7,9 @@ import Layout from "./layout/Layout.jsx";
 
 /** Pages **/
 import Home from "./pages/Home";
-import About from "./Pages/About.jsx"
-import Flat from "./Pages/Flat.jsx"
-import Error from "./Pages/Error.jsx"
+import About from "./Pages/About.jsx";
+import Flat from "./pages/Flat.jsx";
+import Error from "./Pages/Error.jsx";
 
 const root = document.getElementById("root");
 

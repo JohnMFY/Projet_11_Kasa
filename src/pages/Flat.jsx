@@ -2,7 +2,6 @@ import React from 'react'
 import FlatCarousel from '../components/FlatCarousel'
 import FlatInfos from '../components/FlatInfos'
 import FlatDropdowns from '../components/FlatDropdowns'
-import "./Flat.scss"
 import { useParams } from 'react-router'
 import appartementsData from "../data.json";
 
