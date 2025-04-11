@@ -4,11 +4,14 @@ import FlatInfos from '../components/FlatInfos'
 import FlatDropdowns from '../components/FlatDropdowns'
 import { useParams } from 'react-router'
 import appartementsData from "../data.json";
-
+import Error from "../Pages/Error.jsx";
 
 function Flat() {
   const {id} = useParams()
   let flatData = appartementsData.find((appartementsData) => appartementsData.id === id)
+  if(!flatData){
+    return <Error/>
+  }
   return (
     <div>
       <FlatCarousel
