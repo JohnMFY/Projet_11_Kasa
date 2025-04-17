@@ -4,7 +4,6 @@ import Dropdown from './Dropdown'
 
 function DropdownsFlat(props) {
   const equipements = props.equipments
-  console.log(equipements)
   return (
     <div className='flatDropdowns'>
       <div className='flatDescription'>
@@ -15,9 +14,9 @@ function DropdownsFlat(props) {
       </div>
       <div className='flatEquipements'>
         <Dropdown title="Équipements" 
-          description=<ul>{equipements.map((equipement, index)=>
+          description={<ul>{equipements.map((equipement, index)=>
             <li key={index}>{equipement}</li>
-          )}</ul>
+          )}</ul>}
         />  
       </div>
      
