@@ -18,5 +18,20 @@
         bottom: 200px;
         font-size: 64px;
     }
-
 } 
+@media screen and (max-width: 768px) {
+    .banner{
+        margin-bottom: -30%;
+        & img{
+            width: 96%;
+            max-height: 150px;
+        }
+        & h1{
+            color: white;
+            position: relative;
+            bottom: 150px;
+            width: 90%;
+            font-size: 42px;
+        }
+    }
+}

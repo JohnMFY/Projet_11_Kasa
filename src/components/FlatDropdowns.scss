@@ -25,3 +25,10 @@
         padding: 2% 0%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .flatDropdowns{
+        flex-direction: column;
+        margin: 4% 0%;
+    }
+}

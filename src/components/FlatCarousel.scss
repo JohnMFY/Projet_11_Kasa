@@ -21,3 +21,11 @@
         color: white;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .Carousel{
+        .fa-solid{
+            font-size: 2em;
+        }
+    }
+}

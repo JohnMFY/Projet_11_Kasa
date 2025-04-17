@@ -63,3 +63,30 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .flatInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0% 5% 0% 5%;
+        .flatDivLeft{
+            flex-direction: column;
+            .flatTitle{
+                font-size: 44px;
+            }
+        }
+        .flatDivRight{
+            display: flex;
+            flex-direction: row-reverse;
+            .hostDiv{ 
+               & img{
+                    max-width: 30%;
+                }
+            }
+            .stars{
+                justify-content: flex-start;
+            }
+        }
+    }
+}

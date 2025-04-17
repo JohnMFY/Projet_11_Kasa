@@ -22,3 +22,19 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .nav {
+      width: 90%;
+      .navBtn{
+        width: 40%;
+        justify-content: space-between;
+        font-size: large;
+      }
+      .logo{
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+    }
+  }

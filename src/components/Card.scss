@@ -26,3 +26,12 @@
     border-radius: 0px 0px 10px 10px;
     padding: 3%;
 }
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 96%;
+    }
+    .appartementTitle{
+        bottom: 45px;
+    }
+}

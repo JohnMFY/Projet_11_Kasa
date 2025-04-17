@@ -1,8 +1,16 @@
 .mainAbout{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     align-content: center;
     width: 100%;
     margin: 2% 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .mainAbout{
+        width: 100%;
+        margin: 10% 0%;
+        min-height: 50vh;
+    }
 }

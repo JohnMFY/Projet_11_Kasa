@@ -5,5 +5,11 @@
     width: 96%;
     height: auto;
     margin: 2%;
+}
 
+@media screen and (max-width: 768px) {
+    .sectionLocations{
+        display: flex;
+        flex-flow: column wrap;
+    }
 }

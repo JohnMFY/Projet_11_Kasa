@@ -3,7 +3,7 @@
     margin: 1%;
     display: flex;
     align-content: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     overflow: hidden;
     .dropdownTitle{
         display: flex;
@@ -18,10 +18,6 @@
         & h3{
             font-size: x-large;
             margin: 1%;
-        }
-        & img{
-            width: 30px;
-            height: 30px;
         }
         .rotate{
             rotate: 180deg;
@@ -46,5 +42,19 @@
     }
     100%{
         transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown{
+        width: 96%;
+        margin: 5% 0%;
+        .dropdownTitle{
+            width: 96%;
+        }
+        .dropdownContent{
+            width: 94%;
+            transform: translateY(-5%);
+        }
     }
 }
