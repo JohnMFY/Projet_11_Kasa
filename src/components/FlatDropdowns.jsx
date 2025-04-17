@@ -19,7 +19,6 @@ function DropdownsFlat(props) {
             <li key={index}>{equipement}</li>
           )}</ul>
         />  
-
       </div>
      
     </div>
