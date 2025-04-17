@@ -4,6 +4,7 @@ import "./FlatCarousel.scss"
 function FlatCarousel(props) {
   const pictures = props.pictures;
   const [pictureIndex, setPictureIndex] = useState(0)
+  
   const previous = () =>{
     setPictureIndex(index => {
       if(index === 0 ) return pictures.length -1

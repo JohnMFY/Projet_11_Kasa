@@ -9,7 +9,7 @@ function FlatInfos(props) {
             <h1 className='flatTitle'>{props.title}</h1>
             <p className='flatLocation'>{props.location}</p>
             <div className='tagsDiv'>
-              {tags.map((tag)=><p className='flatTag'>{tag}</p>)}
+              {tags.map((tag)=><p key={tag} className='flatTag'>{tag}</p>)}
             </div>
         </div>
         <div>
@@ -20,7 +20,7 @@ function FlatInfos(props) {
               </div>
               <div className='stars'>
                 {[1,2,3,4,5].map((index)=>(
-                  <i className={ props.rating >= index ? "fa-solid fa-star fa-xl star": "fa-solid fa-star fa-xl" }></i>
+                  <i className={ props.rating >= index ? "fa-solid fa-star fa-xl star": "fa-solid fa-star fa-xl" } key={index}></i>
                 ))}
               </div>
             </div>

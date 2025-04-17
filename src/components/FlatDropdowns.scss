@@ -1,12 +1,14 @@
 .rotate{
     rotate: 180deg;
 }
+
 .flatDropdowns{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    margin: 2% 0% 6% 0%;
-    .flatDropdownTitle{
+    width: 100%;
+    margin-bottom: 6%;
+    .dropdownTitle{
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -17,18 +19,20 @@
         border-radius: 10px;
         padding: 0%1%;
     }
-    .flatDropdownContent{
-        background-color: #F6F6F673;
-            margin-top: 0%;
-            padding: 2%;
-            border-radius: 0px 0px 10px 10px ;
-            width: 98%;
-            font-size: larger;
-    }
+
     .flatDescription{
-        width: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .flatEquipements{
-        width: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    li{
+        list-style: none;
+        padding-bottom: 4%;
     }
 }

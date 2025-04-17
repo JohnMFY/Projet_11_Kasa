@@ -12,7 +12,7 @@ function Dropdown(props) {
                 <h3>{props.title}</h3>
                 <i className={`fa-solid fa-chevron-up fa-2x ${isContentVisible ? "rotate" : ""}`} onClick={visible}></i>
             </div>
-            { isContentVisible &&<p>{props.description}</p>}
+            { isContentVisible && <p className='dropdownContent'>{props.description}</p>}
     </div>
   )
 }

@@ -1,9 +1,10 @@
 .dropdown{
     width: 70%;
     margin: 1%;
+    display: flex;
+    flex-flow: column wrap;
     .dropdownTitle{
         display: flex;
-        flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
         color: white;
@@ -24,4 +25,12 @@
             rotate: 180deg;
         }
     }
+    .dropdownContent{
+        background-color: #F6F6F673;
+        margin-top: 0%;
+        padding: 2%;
+        border-radius: 0px 0px 10px 10px ;
+        width: 98%;
+        transition: transform 0.3s ease-in-out;
+  }
 }
