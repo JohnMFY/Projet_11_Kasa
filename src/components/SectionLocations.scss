@@ -4,12 +4,16 @@
     flex-flow: row wrap;
     width: 96%;
     height: auto;
-    margin: 2%;
+    margin: 0% 2% 2% 2%;
+    padding: 2% 0%;
+    background-color: #F6F6F6;
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 768px) {
     .sectionLocations{
         display: flex;
         flex-flow: column wrap;
+        background-color: white;
     }
 }
