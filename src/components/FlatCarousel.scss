@@ -19,15 +19,16 @@
         justify-content: space-between;
         width: 86%;
         color: white;
-    }
-    .picturesCount{
-        position: absolute;
-        color: white;
-        bottom: 300px;
-        font-weight: 600;
-        background:rgba(200, 200, 200, 0.3); 
-        border-radius: 15px;
-        padding: 0% 1%;
+        
+        .picturesCount{
+            position: absolute;
+            left: 48%;
+            top: 200%;
+            font-weight: 600;
+            background:rgba(200, 200, 200, 0.3); 
+            border-radius: 15px;
+            padding: 0% 1%;
+        }
     }
 }
 

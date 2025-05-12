@@ -23,9 +23,10 @@ function FlatCarousel(props) {
       <img src={pictures[pictureIndex]}/>
       <div className='selection'>
         <i className="fa-solid fa-chevron-left fa-7x" onClick={previous}></i>
-        <i className="fa-solid fa-chevron-right fa-7x" onClick={next}></i>
+        <p className='picturesCount'>{pictureIndex+1}/{pictures.length}</p>
+        <i className="fa-solid fa-chevron-right fa-7x" onClick={next}></i> 
       </div>
-      <p className='picturesCount'>{pictureIndex+1}/{pictures.length}</p>
+      
     </div>
   )
 }
